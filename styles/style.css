@@ -237,14 +237,102 @@ a:focus {
     font-weight: 400;
 }
 
-/* Stephen CSS */
 
-.img-circle{
-    border-radius: 50%;
+/* Stephen CSS */
+.stephen .bel-normal{
+    text-align: center;
+    padding-top: 60px;
 }
 
+.stephen .bel-normal h1{
+    font-size: 28px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.stephen .bel-normal p{
+    font-size: 19px;
+    line-height: 2em;
+    padding: 0 20px;
+}
+
+.stephen .bel-highlight p{
+    font-size: 17px;
+    line-height: 1.7em;
+    padding-right: 45px;
+    padding-left: 35px;
+}
+.stephen .bel-highlight h5{
+    padding-left: 35px;
+}
+
+.tips-row{
+    padding-top: 45px;
+}
+
+.row.bel-normal.leather{
+    padding-top: 100px;
+}
+
+h2 span{
+    font-family: "PT Serif", Times, serif;
+    letter-spacing: 0px;
+    font-weight: normal;
+    font-style: italic;
+}
+.leather-selection{
+    padding-top: 40px;
+    margin-left: -40px;
+}
+
+.leather-selection ul li{
+    display: inline;
+}
+
+.leather-type{
+    width: 18px;
+    height: 18px;
+    background-color: #be5f36;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.leather-type:hover{
+    opacity: 1;
+}
+
+.line-break{
+    border-bottom: 1px dotted #000000;
+    margin: 10px 0 100px;
+    clear: both;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 194px;
+    width: 194px;
+    margin: 35px auto 0;
+}
+
+.thoughts{
+    background-color: #e6e6e6;
+    font-size: 17px;
+    padding: 25px 50px;
+    margin: 25px 0 25px;
+    color: #797979;
+}
+
+.thoughts ul {
+    padding: 0;
+}
 
 @media (max-width: 440px) {
+
+
+
     .bel-landing {
     font-size: 13px;
     font-weight: 500;
@@ -346,7 +434,7 @@ a:focus {
 }
 .bel-highlight h5 {
     color: #C75724;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 }
 .bel-highlight .question-no {
